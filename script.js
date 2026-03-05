@@ -36,7 +36,7 @@ valido = false
 
 if (!email.value.icludes("."))
 
-    email.classList.add("erro")
+email.classList.add("erro")
 valido = false   
 
 if(senha.value.length < 6){
