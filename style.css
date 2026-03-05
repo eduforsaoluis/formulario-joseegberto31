@@ -1,0 +1,99 @@
+body {
+
+font-family: Arial, sans-serif;
+background: linear-gradient(120deg, #4facfe, #00f2fe);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+
+}
+
+.container {
+
+background: white;
+padding: 40px;
+border-radius: 10px;
+width: 350px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+}
+
+h1 {
+
+text-align: center;
+margin-bottom: 20px;
+
+}
+
+form {
+
+display: flex;
+flex-direction: column;
+
+}
+
+label {
+
+margin-top: 10px;
+font-weight: bold;
+
+}
+
+input {
+
+padding: 10px;
+margin-top: 5px;
+border-radius: 5px;
+border: 1px solid #ccc;
+
+}
+
+input:focus {
+
+outline: none;
+border-color: #4facfe;
+
+}
+
+button {
+
+margin-top: 20px;
+padding: 12px;
+border: none;
+background: #4facfe;
+color: white;
+font-size: 16px;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+button:hover {
+
+background: #2196f3;
+
+}
+
+.erro {
+
+border: 2px solid red;
+
+}
+
+.sucesso {
+
+color: green;
+margin-top: 10px;
+text-align: center;
+
+}
+
+.erro-msg {
+
+color: red;
+margin-top: 10px;
+text-align: center;
+
+}
